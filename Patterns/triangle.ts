@@ -1,9 +1,17 @@
 const n: number = 4;
 
+// for (let i = 0; i < n; i++) {
+//     let p: string = "";
+//     for (let j = 0; j <= i; j++) {
+//         p += String.fromCharCode(65 + i);
+//     }
+//     console.log(p);
+// }
+
 for (let i = 0; i < n; i++) {
     let p: string = "";
-    for (let j = 0; j <= i; j++) {
-        p += String.fromCharCode(65 + i);
+    for (let j = 1; j <= i + 1; j++) {
+        p += j;
     }
     console.log(p);
 }

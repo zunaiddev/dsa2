@@ -1,4 +1,4 @@
-const n: number = 10;
+const n: number = 4;
 
 
 for (let i = 0; i < n; i++) {
